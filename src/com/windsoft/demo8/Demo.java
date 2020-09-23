@@ -18,5 +18,5 @@ public class Demo {
 @Inherited
 @interface MyAnnotation{
     String value();
-    int num();
+    int num() default 1;
 }
